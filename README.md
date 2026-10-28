@@ -51,6 +51,3 @@ Um jogo de plataforma de ritmo inspirado em Geometry Dash, feito em um único ar
 - Novos obstáculos (portais, plataformas, pads de pulo)
 - Mais mapas e editor de fases
 
-## 📄 Licença
-
-Defina a licença do projeto aqui (por exemplo, MIT).
