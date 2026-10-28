@@ -1,59 +1,58 @@
-# 🎮 Dash Cube
+# 🟨 Dash Cube
 
-Dash Cube é um jogo de obstáculos em que você controla um cubo amarelo e precisa saltar para evitar espinhos e blocos pelo caminho. Seu objetivo é percorrer a maior distância possível, testar seus reflexos e superar seu próprio recorde!
+Um jogo de plataforma de ritmo inspirado em Geometry Dash, feito em um único arquivo HTML. Pule espinhos e blocos, complete os mapas e tente bater seu recorde.
 
-🕹️ Como jogar
+> Sem instalação, sem dependências e sem arquivos de áudio. Abra no navegador e jogue, no PC ou no celular.
 
-O jogo começa quando você toca na tela ou pressiona uma das teclas de pulo. Depois, é preciso saltar no momento certo para evitar os obstáculos que aparecem pelo caminho.
+## ✨ Recursos
 
-Controles
+- 4 mapas com dificuldades crescentes, cada um com cor, velocidade e trilha própria
+- Lobby com seleção de mapa e progresso salvo (melhor % de cada fase)
+- Música chiptune gerada em tempo real com a Web Audio API
+- Efeito sonoro de morte e partículas de explosão
+- Rastros de poeira por onde o cubo passa no chão
+- Fases com linha de chegada e barra de progresso
+- Funciona com teclado, mouse e toque
 
-- Espaço: pular.
-- Seta para cima: pular.
-- Toque na tela: pular em dispositivos com tela sensível ao toque.
-- Segurar o botão ou a tecla: permite iniciar outro salto assim que o cubo voltar ao chão.
+## 🗺️ Mapas
 
-🎯 Objetivo
+| # | Mapa | Dificuldade |
+|---|------|-------------|
+| 1 | Primeiros Passos | Fácil |
+| 2 | Neon Rush | Médio |
+| 3 | Fogo Cruzado | Difícil |
+| 4 | Caos Total | Insano |
 
-Avance o máximo que conseguir sem colidir com os obstáculos. A cada tentativa, procure melhorar sua distância e bater seu recorde pessoal.
+## 🎮 Controles
 
-✨ Características
+| Ação | Teclado | Mouse / Toque |
+|------|---------|---------------|
+| Pular | `Espaço` ou `↑` (segure para pular de novo ao cair) | Clique / toque na tela |
+| Escolher mapa | `1` a `4` | Clique / toque no cartão |
+| Ligar/desligar som | `M` | Toque em "Som (M)" |
+| Voltar ao lobby | `Esc` | Toque em "☰ Lobby" |
 
-- 🟨 Personagem controlado pelo jogador em formato de cubo amarelo.
-- 🔺 Obstáculos variados, incluindo espinhos e blocos.
-- 🎲 Geração aleatória de obstáculos e combinações.
-- 🌈 Cenário com cores dinâmicas e elementos visuais em movimento.
-- 🔄 Animação de rotação do cubo durante os saltos.
-- 📏 Contador de distância percorrida.
-- 🔁 Contador de tentativas.
-- 🏆 Recorde pessoal salvo localmente no navegador.
-- 📱 Controles por toque para dispositivos móveis.
-- ⌨️ Compatibilidade com teclado.
-- 🌐 Jogo executado diretamente no navegador.
+## 🚀 Como rodar
 
-🚀 Como executar
+1. Baixe o arquivo `Dash Cube.html`.
+2. Abra no seu navegador (Chrome, Firefox, Edge, Safari).
+3. Escolha um mapa e jogue.
 
-1. Baixe o arquivo HTML do jogo.
-2. Abra o arquivo em um navegador compatível.
-3. Toque na tela ou pressione Espaço para começar.
-4. Pule os obstáculos e tente alcançar a maior distância possível.
+Ou, se publicar com o GitHub Pages, é só abrir o link da página.
 
-Não são necessárias instalações de bibliotecas externas para executar o arquivo fornecido.
+## 🛠️ Tecnologias
 
-💾 Recorde
+- HTML5 Canvas para os gráficos
+- JavaScript puro, sem bibliotecas
+- Web Audio API para música e efeitos
+- `localStorage` para salvar os recordes
 
-O jogo salva a melhor distância no armazenamento local do navegador. Esse recorde fica associado ao navegador e ao dispositivo utilizados, não sendo um ranking online compartilhado entre jogadores.
+## 📌 Ideias futuras
 
-🛠️ Informações técnicas
+- Skins de cubo
+- Novos obstáculos (portais, plataformas, pads de pulo)
+- Mais mapas e editor de fases
 
-- Nome: Dash Cube
-- Categoria: jogo de obstáculos / endless runner
-- Plataforma: navegador web
-- Formato: HTML
-- Área interna de renderização: 800 × 400 pixels
-- Armazenamento do recorde: LocalStorage
+## 📄 Licença
 
-O arquivo fornecido contém a estrutura da página, os estilos visuais e o código responsável pela lógica e pelo desenho do jogo
-
-
-Dash Cube
+Defina a licença do projeto aqui (por exemplo, MIT).
