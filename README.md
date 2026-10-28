@@ -38,8 +38,6 @@ Um jogo de plataforma de ritmo inspirado em Geometry Dash, feito em um único ar
 2. Abra no seu navegador (Chrome, Firefox, Edge, Safari).
 3. Escolha um mapa e jogue.
 
-Ou, se publicar com o GitHub Pages, é só abrir o link da página.
-
 ## 🛠️ Tecnologias
 
 - HTML5 Canvas para os gráficos
