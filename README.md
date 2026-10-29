@@ -64,7 +64,6 @@ Um jogo de plataforma de ritmo no estilo Geometry Dash, feito em um único arqui
 2. Abra no navegador (Chrome, Firefox, Edge ou Safari).
 3. Toque em **Jogar**, escolha um mapa e divirta-se.
 
-Para publicar com o **GitHub Pages**, renomeie o arquivo para `index.html`, ative o Pages nas configurações do repositório e compartilhe o link.
 
 > O navegador só libera o áudio depois do primeiro toque ou tecla, então a música começa quando você entra em uma fase.
 
