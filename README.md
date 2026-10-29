@@ -73,3 +73,4 @@ O jogo conta com uma seleção diversificada de fases progressivas que testam a 
 - **Web Audio API** para síntese procedural de músicas e efeitos sonoros em tempo real.
 - **WebRTC API** para o recurso de partidas multiplayer P2P.
 - **LocalStorage** para persistência de recordes, configurações e skins customizadas.
+
