@@ -82,6 +82,3 @@ Para publicar com o **GitHub Pages**, renomeie o arquivo para `index.html`, ativ
 - Mais mapas e um editor de fases
 - Modo de treino com checkpoints
 
-## 📄 Licença
-
-Defina a licença do projeto aqui (por exemplo, MIT).
