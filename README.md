@@ -1,4 +1,4 @@
-# 🟨 Dash Cube (1.12.3)
+# 🟨 Dash Cube (1.15.7)
 
 Jogo de plataforma de ritmo no estilo **Geometry Dash**, feito em **um único arquivo HTML**. Pule, desvie de espinhos, serras e projéteis, atravesse portais de gravidade e velocidade e complete 20 mapas, cada um com sua própria música. Funciona no computador e no celular, sem instalar nada.
 
@@ -51,7 +51,7 @@ As abas 4 e 5 têm fundo de fogo, portais de gravidade, velocidade e teletranspo
 
 ## 🛠️ Editor de fases
 
-No menu, abra **EDITOR DE FASES**:
+No menu, abra **FASES** > **CRIAR FASE**:
 
 - **Criar fase:** toque para colocar itens, arraste para rolar. Itens: espinho, bloco, espinho de teto, serra, pad, orb, projétil, jato, portais de gravidade e de velocidade, e borracha.
 - **Salvar:** gera um arquivo `.dashcube` com o nome da fase. Envie para quem quiser jogar.
@@ -89,7 +89,7 @@ Escolha entre 10 skins prontas (Clássico, Robô, Fantasma, Sapo, Panda, Neon, L
 
 ## 🚀 Como rodar
 
-Baixe o arquivo `Dash_Cube.html` e abra com um clique duplo no navegador (computador ou celular). Não precisa instalar nada. Só o multiplayer precisa de internet.
+Baixe o arquivo `Dash Cube 1.15.7.html` e abra com um clique duplo no navegador (computador ou celular). Não precisa instalar nada. Só o multiplayer precisa de internet.
 
 ## 🧰 Tecnologias
 
