@@ -1,103 +1,106 @@
+# 🟨 Dash Cube (1.12.3)
 
-# 🟨 Dash Cube (v1.9.8)
+Jogo de plataforma de ritmo no estilo **Geometry Dash**, feito em **um único arquivo HTML**. Pule, desvie de espinhos, serras e projéteis, atravesse portais de gravidade e velocidade e complete 20 mapas, cada um com sua própria música. Funciona no computador e no celular, sem instalar nada.
 
-Um jogo de plataforma de ritmo no estilo *Geometry Dash*, desenvolvido inteiramente em um **único arquivo HTML**. Pule espinhos, desvie de serras giratórias, projéteis e use orbs para avançar em 12 mapas oficiais com músicas procedurais únicas geradas em tempo real.
-
-> 🚀 **Sem instalação, sem dependências e sem arquivos externos de áudio.** Abra no navegador e jogue no PC ou no celular!
-
----
-
-## 🆕 Novidades da Versão 1.9.8
-
-- **Multiplayer Simplificado por Código (PeerJS):** Sistema de salas aprimorado! Crie uma sala, receba um código de 5 caracteres e compartilhe com seu amigo para se conectarem rapidamente sem trocar grandes blocos de texto.
-- **Exportação e Importação de Fases (`.dashcube`):** No Editor de Fases, agora é possível renomear, salvar e baixar suas criações como arquivos `.dashcube` para compartilhar com amigos ou carregar fases personalizadas.
-- **Suporte a Fases Customizadas no Multiplayer:** O anfitrião da sala pode carregar uma fase personalizada criada no editor para jogar em tempo real contra o amigo.
-- **Interface e Fluxo Melhorados:** Adição do menu "FASES" para criar, carregar ou continuar rascunhos de fases personalizadas com facilidade.
+<!-- Adicione aqui prints ou um GIF do jogo -->
 
 ---
 
-## ✨ Recursos Principais
+## ✨ Recursos
 
-- **12 Mapas Divididos por Categorias:** Fases desafiadoras com dificuldades progressivas organizadas em abas temáticas, além do slot para fases customizadas.
-- **Música Procedural em Tempo Real:** Trilha sonora gerada via **Web Audio API** (melodia, baixo, arpejos, bateria e efeitos) para cada mapa.
-- **Editor de Fases e Skins Integrado:** Crie e salve seus próprios mapas e personalize a skin do seu cubo pixel por pixel em uma grade 8x8.
-- **Modo Treino:** Pratique trechos difíceis salvando e carregando checkpoints (`C` para salvar, `X` para limpar).
-- **Menu de Configurações Completo:** Ajuste volumes, rastros no chão, qualidade gráfica, opção de macro (duplo clique) e reset de recordes.
-- **Persistência Local:** Progresso, recordes, rascunhos de fases e skins criadas são salvos no `localStorage`.
+- **20 mapas em 5 abas:** Clássicos, Ritmo Neon, Orbs, Infernal e Metal
+- **Música própria em cada mapa**, gerada em tempo real pelo navegador (nada de arquivos de áudio)
+- **Skins:** 10 prontas e 6 espaços para criar as suas no editor de pixel art
+- **Modo treino** com checkpoints
+- **Editor de fases:** crie, salve em arquivo e jogue fases suas ou de amigos
+- **Multiplayer (beta):** corrida entre dois jogadores usando só um código de sala
+- **Configurações:** volume, rastros, qualidade gráfica e duplo clique (macro, beta)
+- **Recordes salvos** no próprio navegador
 
----
+## 🎮 Como jogar
 
-## 🗺️ Mapas e Fases (Divididos por Categoria)
+| Ação | Teclado | Celular |
+|---|---|---|
+| Pular (segure para pular sempre que cair) | `Espaço` ou `↑` | Toque na tela |
+| Som ligado/desligado | `M` | Botão "Som" |
+| Voltar | `Esc` | Botão "Lobby" |
+| Marcar checkpoint (treino) | `C` | Botão "Checkpoint" |
+| Apagar checkpoint (treino) | `X` | — |
 
-### 🟡 Aba 1: Clássicos
-| # | Mapa | Dificuldade | Elemento Principal |
-|---|------|-------------|--------------------|
-| 1 | Primeiros Passos | Fácil | Jump pads |
-| 2 | Neon Rush | Médio | Portais de velocidade |
-| 3 | Fogo Cruzado | Difícil | Serras e gravidade |
-| 4 | Caos Total | Insano | Tudo junto |
+### Obstáculos e mecânicas
 
-### 🟣 Aba 2: Ritmo Neon
-| # | Mapa | Dificuldade | Elemento Principal |
-|---|------|-------------|--------------------|
-| 5 | Galáxia Pixel | Médio | Projéteis e jatos |
-| 6 | Sonhos Elétricos | Difícil | Rajadas de projéteis |
-| 7 | Batida Neon | Insano | Gravidade e rajadas |
-| 8 | Pulso Final | Lendário | Tudo e projéteis |
+- **Espinhos** no chão e no teto e **serras** giratórias matam. **Blocos** servem de plataforma.
+- **Pad amarelo:** lança você bem alto.
+- **Orb amarelo:** toque no ar sobre ele para pular de novo.
+- **Projéteis rápidos:** baixos pedem pulo, altos pedem para não pular. **Jatos** só machucam quando acesos.
+- **Portais de gravidade:** invertem para o teto (roxo ▲) ou para o chão (rosa ▼).
+- **Portais de velocidade:** verde (lento), azul (normal), laranja (rápido) e vermelho (muito rápido).
+- **Portal de teletransporte (ciano ✦):** joga você no teto, e você cai direto em cima do próximo perigo.
 
-### 🔵 Aba 3: Orbs & Desafios Avançados
-| # | Mapa | Dificuldade | Elemento Principal |
-|---|------|-------------|--------------------|
-| 9 | Órbita | Difícil | Orbs e serras altas |
-| 10 | Cristal Quebrado | Insano | Orbs e gravidade |
-| 11 | Eclipse | Insano | Mistura total |
-| 12 | Colapso | Lendário | Desafio final |
+## 🗺️ Mapas
 
-> 🛠️ **Fase Customizada (Meu Mapa):** Espaço dedicado para criar, exportar em arquivo ou importar fases de amigos no Editor.
+| Aba | Mapas |
+|---|---|
+| **1 · Clássicos** | Primeiros Passos · Neon Rush · Fogo Cruzado · Caos Total |
+| **2 · Ritmo Neon** | Galáxia Pixel · Sonhos Elétricos · Batida Neon · Pulso Final |
+| **3 · Orbs** | Órbita · Cristal Quebrado · Eclipse · Colapso |
+| **4 · 🔥 Infernal** | Portal do Inferno · Abismo Invertido · Velocidade Infernal · Impossível |
+| **5 · 🤘 Metal** | Aço Ardente · Trovão de Aço · Sinfonia Sombria · Apocalipse |
 
----
+As abas 4 e 5 têm fundo de fogo, portais de gravidade, velocidade e teletransporte, e velocidade máxima. A aba 5 tem guitarras distorcidas, bumbo duplo e riffs de rock/metal.
 
-## 🧩 Obstáculos e Elementos
+## 🛠️ Editor de fases
 
-| Elemento | O que faz |
-|----------|-----------|
-| **Espinhos e Serras** | Causam morte instantânea ao menor contato. |
-| **Blocos** | Superfícies sólidas para pousar (bater lateralmente resulta em morte). |
-| **Pad Amarelo** | Lança o cubo em um salto alto automático. |
-| **Orb Amarelo** | Permite dar um salto no ar ao tocar sobre ele. |
-| **Portais de Velocidade** | Aceleram (laranja) ou retornam a velocidade padrão (azul). |
-| **Portal de Gravidade** | Inverte a gravidade, fazendo o cubo correr pelo teto (roxo). |
-| **Projéteis e Jatos** | Obstáculos rítmicos e móveis que exigem atenção ao tempo e à altura. |
+No menu, abra **EDITOR DE FASES**:
 
----
+- **Criar fase:** toque para colocar itens, arraste para rolar. Itens: espinho, bloco, espinho de teto, serra, pad, orb, projétil, jato, portais de gravidade e de velocidade, e borracha.
+- **Salvar:** gera um arquivo `.dashcube` com o nome da fase. Envie para quem quiser jogar.
+- **Entrar em uma fase:** escolha um arquivo `.dashcube`. Sem o arquivo não dá para entrar. Depois você pode **Jogar** ou **Editar**.
+- **Testar:** joga a fase direto do editor.
+- O editor guarda um rascunho automaticamente no navegador.
 
-## 🎮 Controles
+> Os portais de teletransporte e os de velocidade lenta/muito rápida ainda não estão disponíveis no editor, só nos mapas infernais.
 
-| Ação | Teclado | Mouse / Toque |
-|------|---------|---------------|
-| **Pular** | `Espaço` ou `Seta ↑` *(segure para pular ao cair)* | Clique / Toque na tela |
-| **Marcar Checkpoint (Treino)** | Tecla `C` | Botão na tela |
-| **Apagar Checkpoint (Treino)** | Tecla `X` | — |
-| **Ligar/Desligar Som** | Tecla `M` | Menu de Configurações |
-| **Selecionar Fase** | Teclas `1` a `4` (referente à aba aberta) | Clique no cartão do mapa |
-| **Trocar Abas** | Teclas `Seta ←` / `Seta →` | Clique nos botões de abas |
-| **Pausar / Voltar** | Tecla `Esc` | Botão "Lobby" ou "Menu" |
+## 👥 Multiplayer (beta)
 
----
+Corrida entre dois jogadores: vence quem chegar primeiro ao final.
 
-## 🚀 Como Rodar
+1. Um jogador abre **MULTIPLAYER (BETA)**, aceita o aviso e toca em **Criar sala**. Aparece um **código de 5 caracteres**.
+2. O outro jogador digita o código em **Entrar** e conecta.
+3. O anfitrião escolhe o mapa (inclusive uma fase sua carregada do editor) e toca em **Iniciar corrida**.
 
-1. Baixe o arquivo `Dash Cube 1.9.8.html` (ou renomeie para `index.html`).
-2. Abra-o em qualquer navegador moderno (Chrome, Firefox, Edge ou Safari), no PC ou celular.
-3. Clique ou toque na tela inicial para liberar o áudio e começar a jogar!
+**Importante:**
 
----
+- Precisa de internet. A conexão é feita direto entre os jogadores (WebRTC), usando o serviço público [PeerJS](https://peerjs.com/) só para encontrar a sala.
+- Em algumas redes (principalmente de celular) a conexão pode falhar.
+- Os recordes não são salvos em partidas multiplayer.
 
-## 🛠️ Tecnologias Utilizadas
+## 🎨 Skins
 
-- **HTML5 Canvas:** Renderização gráfica 2D a 60 FPS.
-- **JavaScript (ES6+):** Física, colisões e lógica geral.
-- **Web Audio API:** Síntese procedural de áudio e música em tempo real.
-- **PeerJS / WebRTC:** Conexão multiplayer Peer-to-Peer por código de sala.
-- **LocalStorage API:** Persistência de dados e salvamento.
+Escolha entre 10 skins prontas (Clássico, Robô, Fantasma, Sapo, Panda, Neon, Lava, Ouro, Oceano e Arco-íris) ou use **Copiar e editar** para criar a sua em uma grade de 8×8 pixels, com 16 cores, preencher, espelhar e limpar. Até 6 skins próprias ficam salvas no navegador.
 
+## ⚙️ Configurações
+
+- Volume da música e dos efeitos, e som geral
+- Rastros no chão
+- Qualidade gráfica: Baixo, Médio, Alto e Ultra
+- **Duplo clique (macro) — beta:** dá um segundo clique automático depois do seu toque, com atraso ajustável. Com ela ligada, os recordes não são salvos.
+- Apagar recordes
+
+## 🚀 Como rodar
+
+Baixe o arquivo `Dash_Cube.html` e abra com um clique duplo no navegador (computador ou celular). Não precisa instalar nada. Só o multiplayer precisa de internet.
+
+## 🧰 Tecnologias
+
+- HTML5 Canvas 2D
+- Web Audio API (música e efeitos sintetizados em tempo real)
+- WebRTC via PeerJS (multiplayer, carregado só quando você abre o modo)
+- `localStorage` (recordes, skins, configurações e rascunho do editor)
+- JavaScript puro, sem frameworks e sem etapa de build
+
+## 📌 Observações
+
+- O multiplayer e o duplo clique estão em **beta** e podem ter erros.
+- Os dados ficam salvos no navegador. Limpar os dados do site apaga recordes, skins e rascunho.
+- Salve suas fases em arquivo `.dashcube` para não perdê-las.
