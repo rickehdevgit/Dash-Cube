@@ -1,76 +1,32 @@
-# 🟨 Dash Cube
+# 🎮 Dash Cube v1.25.0
 
-Jogo de ritmo e plataforma no estilo **Geometry Dash**, feito em **um único arquivo HTML**. Sem instalar nada e sem arquivos de áudio ou imagem: abra no navegador e jogue, no PC ou no celular.
+**Dash Cube** é um jogo de ritmo e plataforma 2D em HTML5 com estética retrô *pixel art*, desenvolvido para rodar diretamente no navegador sem a necessidade de instalações, dependências ou servidores externos.
 
-> **Versão atual:** 1.24.0
+---
 
-## ✨ Destaques
+## ✨ Destaques e Funcionalidades
 
-- **24 fases em 6 categorias**, cada uma com fundo em camadas (parallax) e música própria
-- **Músicas geradas em tempo real** (Web Audio): chiptune, synthwave, rock/metal pesado e eletrônica
-- **Seções de nave** com túneis de pilares
-- **Multiplayer (beta)**: corrida, parkour, PvP com armas e defesa de torre em dupla
-- **Defesa da Torre também no modo solo**, com dinheiro e upgrades
-- **Editor de fases**, **editor de skins** e **modo treino** com checkpoints
-- Funciona no **celular** (controles por toque)
+- **🏁 30+ Fases Principais:** Desafios divididos por temas e estilos de iluminação (*Neon Rush*, *Metal Thrash*, *Synthwave*, *Galáxia Pixel* e *Fases Espaciais*).
+- **🌐 Multiplayer P2P em Tempo Real:** Modos 1v1, Parkour, PvP e Defesa da Torre Co-op utilizando conexão peer-to-peer direta via código de sala de 5 dígitos (sem necessidade de registro).
+- **✎ Editor de Fases Nativo:** Crie, teste e exporte suas próprias fases no formato `.dashcube` diretamente pelo navegador.
+- **🎨 Customização Integrada:** Editor de *pixel art* para personalizar skins, rastros de partículas e efeitos de morte, além de loja com colecionáveis e sistema de conquistas.
+- **🎵 Trilha Sonora Procedural:** Áudio dinâmico gerado via *Web Audio API* com BPM sincronizado em tempo real à física e aos obstáculos.
+- **🎮 Suporte Multiplataforma:** Compatível com Teclado (Setas / Espaço / A-D) e controles Touch responsivos para dispositivos móveis.
 
-## 🎮 Como jogar
+---
 
-1. Baixe o arquivo do jogo (por exemplo, `Dash_Cube_1_24_0.html`).
-2. Abra no navegador (Chrome, Edge, Firefox ou Safari).
-3. Escolha uma fase no lobby e pule os obstáculos no ritmo da música.
+## 🕹️ Como Jogar
 
-**Controles:** `Espaço`, clique ou toque para pular. Nas partes de nave, segure para subir e solte para descer. `M` liga/desliga o som, `Esc` volta ou sai.
+1. Baixe ou abra o arquivo `DashCube1_25_0.html` em qualquer navegador moderno (Chrome, Edge, Firefox, Safari).
+2. Selecione o modo de jogo no menu principal (Campanha, Multiplayer ou Editor).
+3. Use a tecla **Espaço** / **Seta para Cima** no PC ou toque na tela do celular para pular e desviar dos obstáculos no ritmo da música.
 
-## 🗺️ Fases
+---
 
-| Categoria | Fases |
-|---|---|
-| Clássicos | Primeiros Passos, Neon Rush, Fogo Cruzado, Caos Total |
-| Ritmo Neon | Galáxia Pixel, Sonhos Elétricos, Batida Neon, Pulso Final |
-| Orbs | Órbita, Cristal Quebrado, Eclipse, Colapso |
-| 🔥 Infernal | Portal do Inferno, Abismo Invertido, Velocidade Infernal, Impossível |
-| 🤘 Metal | Aço Ardente, Trovão de Aço, Sinfonia Sombria, Apocalipse |
-| ⚡ Eletrônica ⚠️ | Neon Pulse, Strobe Drop, Blackout Beat, Glitch Overdrive |
+## 🛠️ Tecnologias Utilizadas
 
-Há ainda a vaga **"Meu Mapa"**, para a fase que você criar no editor. As fases são difíceis: as categorias Infernal e Metal são as mais rápidas e apertadas.
-
-## 🧩 Mecânicas
-
-- Espinhos, blocos, serras, lasers e losangos giratórios
-- Jump pads e orbs
-- Portais de **velocidade**, **gravidade**, **teletransporte** e **nave**
-- **Nave:** segure para subir, solte para descer e passe pelo vão dos pilares
-
-## 🛠️ Modos e ferramentas
-
-- **Modo treino:** checkpoints para praticar partes difíceis
-- **Editor de fases:** crie, teste, exporte e importe fases em arquivo
-- **Editor de skins:** personalize o seu cubo
-- **Configurações:** qualidade gráfica (de ultra a baixa), volume e macro de duplo clique (beta)
-
-## 🏰 Defesa da Torre
-
-Modo solo (botão no menu principal) ou cooperativo no multiplayer.
-
-- Defenda a torre de **10 ondas** de quadrados invasores
-- Cada abate dá **dinheiro**, e o valor cresce nas ondas mais fortes
-- Antes de cada onda abre um pop-up com **4 upgrades sorteados** (teclas `1` a `4` ou toque)
-- Upgrades pessoais: dano, cadência de tiro, bala perfurante, tiro duplo e bônus de dinheiro
-- Upgrades da torre: reparo, +vida máxima e **torreta automática**
-- O preço sobe a cada compra repetida do mesmo upgrade
-
-## 🌐 Multiplayer (beta)
-
-Jogue com um amigo usando um **código de sala** (conexão direta entre navegadores via PeerJS; é preciso estar online).
-
-- 🏁 **Corrida:** quem chegar mais longe na fase vence
-- 🧗 **Parkour:** percurso de plataformas com checkpoints e espinhos
-- 🔫 **PvP:** arena com pistola, espingarda e metralhadora, caixas de vida e armas, vence quem chegar a 5 abates
-- 🏰 **Defesa da Torre (co-op):** a dupla defende a torre e compra upgrades
-- **Revanche** rápida (`R`) e **emotes** (teclas `1` a `4`)
-
-## ⚠️ Aviso de saúde
-
-A categoria **Eletrônica** tem **luzes piscando, telas pretas e sustos (jumpscares)** e pode causar crises em pessoas com **epilepsia fotossensível**. O jogo mostra um aviso antes de entrar nessas fases e oferece o **Modo seguro**, que desliga os efeitos.
+- **HTML5 Canvas 2D:** Renderização de gráficos e partículas.
+- **Web Audio API:** Síntese e sincronização de áudio dinâmico.
+- **WebRTC / PeerJS:** Conectividade multiplayer P2P sem servidor intermediário.
+- **JavaScript (ES6+):** Lógica do jogo e serialização de dados em arquivo único.
 
