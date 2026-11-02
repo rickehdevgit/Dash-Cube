@@ -1,4 +1,4 @@
-🎮 Dash Cube v1.25.5
+🎮 Dash Cube v1.25.0
 Dash Cube é um jogo 2D de ritmo e plataforma em HTML5 com estética retrô pixel art. Ele foi desenvolvido para rodar diretamente no navegador (PC e mobile) sem a necessidade de instalações, dependências ou servidores externos dedicados.
 ✨ Destaques do Jogo
  * 🏁 30+ Fases Principais: Divididas por categorias e estilos visuais únicos com progressão contínua de dificuldade.
@@ -43,5 +43,3 @@ A campanha principal conta com mais de 30 fases organizadas nos seguintes blocos
  * Web Audio API: Síntese de áudio procedural e sincronização de ritmo.
  * WebRTC / PeerJS: Comunicação multiplayer peer-to-peer em tempo real.
  * JavaScript (ES6+): Motor de física, lógica de jogo e serialização em arquivo único.
-📄 Licença
-Este projeto é disponibilizado sob a licença MIT. Sinta-se livre para modificar, estudar e distribuir!
