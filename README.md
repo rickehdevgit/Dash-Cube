@@ -1,119 +1,72 @@
-### 🎮 Dash Cube v1.25.7
+# 🟨 Dash Cube
 
-Dash Cube é um jogo 2D de plataforma e ritmo desenvolvido em HTML5, com gráficos em pixel art e jogabilidade inspirada em jogos de obstáculos musicais. O objetivo é controlar um cubo que percorre diferentes fases, desviando de espinhos, saltando plataformas e enfrentando desafios cada vez mais difíceis.
+> Jogo de ritmo e plataforma estilo **Geometry Dash**, feito em **um único arquivo HTML**. Sem instalação e sem dependências: abra no navegador e jogue.
 
-O jogo combina velocidade, reflexos, música e criatividade, oferecendo diversos modos de jogo, personalização de personagens e ferramentas para criação de fases personalizadas.
+---
 
-### ✨ Destaques do Jogo
+## 🎮 Sobre o jogo
 
-* 🏁 Mais de 30 Fases: Campanha com níveis variados, cenários exclusivos e dificuldade progressiva.
+Em **Dash Cube** você controla um cubo que corre automaticamente por fases cheias de espinhos, serras, blocos, portais e armadilhas. Pule na hora certa, desvie de tudo e tente chegar a **100%** sem morrer.
 
-* 🌐 Multiplayer Online P2P: Partidas em tempo real com outros jogadores através de códigos de sala de 5 dígitos.
+Tudo roda direto no navegador (Canvas + áudio sintetizado). As músicas e efeitos são gerados pelo próprio jogo, sem arquivos externos.
 
-* ✎ Editor de Fases: Crie seus próprios mapas, adicione obstáculos, configure o BPM e compartilhe suas criações.
+## ✨ Recursos
 
-* 🎨 Personalização de Skins: Crie personagens em pixel art, escolha cores, rastros de partículas e efeitos especiais.
+- 🗺️ **60 fases** em **15 categorias**, de Fácil até Lendário
+- 🎵 **Música própria em cada fase**, com BPM diferente (rock, metal, eletrônica, synthwave e mais)
+- 🌀 **Portais e mecânicas**: jump pads, orbs, portais de velocidade, gravidade invertida, teletransporte e portal de nave
+- 🎨 **Fundo único** para cada fase
+- 🛒 **Loja** com skins, caixas e pacotes
+- 💎 **Raridades de skins**: Comum, Raro, Épico, Lendário e Mítico
+- 🏆 **45+ conquistas** e sistema de **XP/nível**
+- 👤 **Conta com Nick e senha**, login e perfil salvos no aparelho
+- 👥 **Lista de amigos**
+- 🎧 **Jukebox** com todas as músicas do jogo
+- 🛠️ **Editor de fases** com música, plano de fundo e itens próprios
+- 🏋️ **Modo treino** com checkpoints
+- 🎬 **Intros** antes de entrar no jogo
+- 📱 **Funciona no celular** com controles por toque
 
-* 🎵 Música Sincronizada: Sistema de áudio procedural com batidas sincronizadas aos obstáculos e à movimentação.
+## 🗂️ Categorias de fases
 
-* 🏆 Sistema de Conquistas: Desbloqueie recompensas conforme avança e completa desafios.
+Clássicos · Ritmo Neon · Orbs · 🔥 Infernal · 🤘 Metal · ⚡ Eletrônica · 🌌 Espacial · 🎹 Synthwave · 🏰 Medieval · 🎃 Sombria · 🌊 Oceano · ❄️ Gelo · 🏜️ Deserto · ☠️ Impossível · 💀 Além do Impossível
 
-* 📱 Suporte Multiplataforma: Jogue no computador ou celular diretamente pelo navegador.
+> ⚠️ **Aviso:** a categoria **Eletrônica** tem telas piscando, telas pretas e sustos. O jogo mostra um aviso antes de entrar.
 
-### 📂 Categorias e Temas de Fases
+## 🌐 Multiplayer (BETA)
 
-A campanha principal possui mais de 30 fases organizadas em diferentes categorias:
+Jogue com amigos usando só um **código de sala** de 5 caracteres: um cria a sala e passa o código, o outro entra.
 
-1\. Neon Rush (Fases Introdutórias):
+| Modo | Descrição |
+|---|---|
+| 🏁 Corrida | Corram nas fases do jogo |
+| 🧗 Parkour | Plataformas e checkpoints |
+| 🔫 PvP | Arminhas e itens |
+| 🏰 Defesa da Torre | Cooperativo com upgrades |
 
-* Cenários coloridos com neon azul, ciano e rosa.
+O multiplayer ainda está em beta e pode ter bugs.
 
-* Obstáculos básicos e introdução às mecânicas.
+## 🕹️ Como jogar
 
-* Ideal para aprender os controles e o ritmo do jogo.
+1. Baixe o arquivo `.html` do jogo.
+2. Abra no navegador (Chrome, Edge, Firefox ou Safari).
+3. Escolha seu **Nick**, crie uma conta (ou entre como convidado) e escolha uma fase.
 
-2\. Metal Thrash (Fases Intermediárias):
+**Controles:** `Espaço`, clique ou toque na tela para pular. Segure para continuar o impulso nas partes de nave e orbs.
 
-* Ambientes industriais com tons escuros e detalhes vermelhos.
+## 🧰 Tecnologias
 
-* Plataformas móveis, obstáculos inesperados e saltos precisos.
+- HTML5, CSS e JavaScript puro
+- Canvas 2D para os gráficos
+- Web Audio API para músicas e efeitos
+- WebRTC para o multiplayer
+- `localStorage` para salvar perfil, moedas, skins e progresso
 
-* Aumento gradual da velocidade.
+## 📌 Status
 
-3\. Synthwave (Fases Avançadas):
+Em desenvolvimento ativo. Versão atual: **1.32**.
 
-* Visual retrô inspirado nos anos 80.
+Ideias e bugs são bem-vindos: abra uma *Issue*!
 
-* Grades futuristas, pores do sol e efeitos neon.
 
-* Portais de velocidade e mudanças de gravidade.
-
-4\. Galáxia Pixel (Fases Difíceis):
-
-* Cenários espaciais com estrelas e nebulosas.
-
-* Obstáculos complexos e combinações de portais.
-
-* Exige reflexos rápidos e boa precisão.
-
-5\. Espacial / Hardcore (Desafio Final):
-
-* Fases de dificuldade extrema.
-
-* Gravidade alterada e sequências avançadas de obstáculos.
-
-* Trilhas sonoras aceleradas e desafios para jogadores experientes.
-
-### 🌐 Modos de Jogo
-
-* Modo Campanha: Avance pelas fases principais e desbloqueie novos desafios.
-
-* Multiplayer P2P:
-
-    * Corrida 1v1: Compita contra outro jogador para chegar primeiro ao final.
-
-    * Parkour: Complete percursos cheios de obstáculos.
-
-    * PvP: Enfrente outros jogadores em arenas competitivas.
-
-    * Defesa da Torre Co-op: Trabalhe em equipe para defender pontos do mapa contra ondas de obstáculos.
-
-* Editor de Fases: Desenvolva mapas personalizados com blocos, espinhos, portais e configurações musicais.
-
-* Modo Personalização: Crie e modifique suas próprias skins e efeitos visuais.
-
-### 🕹️ Como Jogar
-
-* Abra o arquivo `DashCube1_25_0.html` em um navegador moderno.
-
-* Aguarde o carregamento do menu principal.
-
-* Escolha o modo de jogo desejado.
-
-* Controle o cubo e tente completar os desafios sem colidir com os obstáculos.
-
-Controles:
-
-* PC: Espaço, Seta para Cima ou teclas A / D.
-
-* Mobile: Toque em qualquer parte da tela para controlar o personagem.
-
-### 🛠️ Tecnologias Utilizadas
-
-* HTML5 Canvas 2D: Renderização de cenários, personagens e partículas.
-
-* JavaScript ES6+: Motor principal, física e lógica do jogo.
-
-* Web Audio API: Geração de músicas e efeitos sonoros sincronizados.
-
-* WebRTC / PeerJS: Comunicação multiplayer entre jogadores.
-
-* CSS3: Interface, menus, animações e elementos visuais.
-
-* Sistema de Arquivo Único: Execução diretamente no navegador, sem instalação de dependências.
-
-### 🚀 Objetivo do Projeto
-
-O objetivo do Dash Cube v1.25.0 é oferecer uma experiência completa de plataforma e ritmo, reunindo campanha, multiplayer, criação de conteúdo e personalização em um único jogo.
-
-Com uma estética retrô, desafios progressivos e liberdade criativa, Dash Cube transforma cada fase em um novo desafio de velocidade, precisão e diversão. 🎮
+Feito com 💛 e muitos espinhos.
