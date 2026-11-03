@@ -62,11 +62,6 @@ O multiplayer ainda está em beta e pode ter bugs.
 - WebRTC para o multiplayer
 - `localStorage` para salvar perfil, moedas, skins e progresso
 
-## 📌 Status
-
-Em desenvolvimento ativo. Versão atual: **1.32**.
-
-Ideias e bugs são bem-vindos: abra uma *Issue*!
 
 
 Feito com 💛 e muitos espinhos.
